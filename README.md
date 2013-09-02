@@ -38,23 +38,27 @@ This order json file looks like the following...
 
 ```
 {
-    email: 'me@example.com',
-    sandwich: {
-        name: 'Country Club',
-        no: [
-            'tomatoes',
-            'lettuce'
-        ],
-        add: [
-            'mayo'
-        ],
-        other: [
-            'cut in half'
-        ]
-    },
-    charge: {
-        name: 'My Visa'
-    }
+  "email": "",
+  "company": "AllPlayers.com",
+  "address": "14665 Midway Road",
+  "apt/suite": "220",
+  "city": "Addison",
+  "state": "Texas",
+  "zip": "75001",
+  "sandwich": "country club",
+  "who": "Travis",
+  "bread": "French Bread",
+  "cut": true,
+  "drink": "",
+  "chips": "Regular Jimmy Chips",
+  "cookie": "",
+  "pickle": "",
+  "Tomato": "NO",
+  "tip": "2",
+  "billing_address": "123 Main St.",
+  "billing_city": "Carrollton",
+  "billing_state": "Texas",
+  "billing_zip": "75007"
 }
 ```
 
