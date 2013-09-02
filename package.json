@@ -1,0 +1,26 @@
+{
+  "name": "makemeasandwich",
+  "version": "0.0.1",
+  "description": "A node.js application that will order you a sandwich from Jimmy Johns via command line.",
+  "author": {
+    "name": "Travis Tidwell",
+    "email": "travist349@gmail.com",
+    "url": "http://github.com/travist"
+  },
+  "homepage": "http://github.com/travist/makemeasandwich.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/travist/makemeasandwich.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/travist/makemeasandwich.js/issues"
+  },
+  "main": "./lib/makemeasandwich.js",
+  "dependencies": {
+    "jquerygo": ">=0",
+    "underscore": ">=0",
+    "nconf": ">=0",
+    "prompt": ">=0",
+    "async": ">=0"
+  }
+}
