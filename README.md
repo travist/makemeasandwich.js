@@ -61,5 +61,3 @@ This order json file looks like the following...
   "billing_zip": "75007"
 }
 ```
-
-The charge settings are simply the pre-defined credit card settings that Jimmy Johns already keeps for you in their system.  The first time you create an order, you will need to put in your credit card information which it will simply prompt you for it.
