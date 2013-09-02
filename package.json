@@ -1,6 +1,6 @@
 {
   "name": "makemeasandwich",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js application that will order you a sandwich from Jimmy Johns via command line.",
   "author": {
     "name": "Travis Tidwell",
