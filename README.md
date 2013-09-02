@@ -14,6 +14,9 @@ To install this application on your computer, you can simply use NPM to install 
 npm install -g makemeasandwich
 ```
 
+Next you will need to <a href="http://phantomjs.org/download.html">Install Phantom.js</a>.
+
+
 Usage
 ---------------------------
 To run this command, simply type it in your terminal.
