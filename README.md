@@ -6,6 +6,10 @@ This is a Node.js application that is capable of ordering a Jimmy John's sandwic
 
 It does this through the combination of Node.js + PhantomJS along with some other command line prompt tools that makes ordering a sandwich even more freaky fast.
 
+Article
+---------------------------
+To read more about this project and why I built it, go to <a href="http://travistidwell.com/blog/2013/09/01/sudo-make-me-a-sandwich">http://travistidwell.com/blog/2013/09/01/sudo-make-me-a-sandwich</a>
+
 Installation
 ---------------------------
 To install this application on your computer, you can simply use NPM to install it as a global command.
