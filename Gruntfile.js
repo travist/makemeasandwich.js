@@ -1,28 +1,13 @@
 module.exports = function(grunt) {
-
-  // Project configuration.
   grunt.initConfig({
-    concat: {
+    jshint: {
+      all: ['Gruntfile.js', 'lib/*.js'],
       options: {
-        banner: '#!/usr/bin/env node\n'
-      },
-      dist: {
-        src: ['lib/makemeasandwich.js'],
-        dest: 'bin/makemeasandwich',
-      },
-    },
-    chmod: {
-      options: {
-        mode: '755'
-      },
-      yourTarget1: {
-        src: ['bin/makemeasandwich']
+        multistr: true
       }
     }
   });
-
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-chmod');
-  grunt.registerTask('default', ['concat','chmod']);
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.registerTask('default', ['jshint']);
 
 };
