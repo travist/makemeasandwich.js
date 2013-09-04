@@ -15,6 +15,9 @@
   "bugs": {
     "url": "http://github.com/travist/makemeasandwich.js/issues"
   },
+  "bin": {
+    "makemeasandwich": "./bin/makemeasandwich"
+  },
   "main": "./lib/makemeasandwich.js",
   "dependencies": {
     "jquerygo": ">=0",
@@ -22,5 +25,10 @@
     "nconf": ">=0",
     "prompt": ">=0",
     "async": ">=0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-chmod": "~1.0.3"
   }
 }
