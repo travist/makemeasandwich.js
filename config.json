@@ -6,6 +6,8 @@
   "city": "Addison",
   "state": "Texas",
   "zip": "75001",
+  "gate_code": "",
+  "delivery_instructions": "",
   "sandwich": "country club",
   "who": "Travis",
   "bread": "French Bread",
