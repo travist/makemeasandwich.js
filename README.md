@@ -65,3 +65,6 @@ This order json file looks like the following...
   "billing_zip": "75007"
 }
 ```
+
+If you'd like to save the order json for repeated use, simply add it to either `X:\mmas\config.json` in Windows (where X is your primary drive letter) or `\etc\mmas\config.json` in Linux/Mac. However, do note that using `-o order.json` will override the saved config.json. 
+
