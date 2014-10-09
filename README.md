@@ -68,6 +68,14 @@ This order json file looks like the following...
 
 If you'd like to save the order json for repeated use, simply add it to either `X:\mmas\config.json` in Windows (where X is your primary drive letter) or `\etc\mmas\config.json` in Linux/Mac. However, do note that using `-o order.json` will override the saved config.json.
 
+Using the Makefile
+------------------------------
+If you navigate to the downloaded folder within your terminal, you can then use the ```Makefile``` to type the command as it is in the XKCD comic.
+
+```
+sudo make me a sandwich
+```
+
 Debugging & Troubleshooting
 ------------------------------
 You can provide a debug argument which it will capture a screenshot within the "screenshots" folder for every step in the process.  This is a good way
