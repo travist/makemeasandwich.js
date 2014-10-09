@@ -66,5 +66,9 @@ This order json file looks like the following...
 }
 ```
 
-If you'd like to save the order json for repeated use, simply add it to either `X:\mmas\config.json` in Windows (where X is your primary drive letter) or `\etc\mmas\config.json` in Linux/Mac. However, do note that using `-o order.json` will override the saved config.json. 
+If you'd like to save the order json for repeated use, simply add it to either `X:\mmas\config.json` in Windows (where X is your primary drive letter) or `\etc\mmas\config.json` in Linux/Mac. However, do note that using `-o order.json` will override the saved config.json.
 
+Debugging & Troubleshooting
+------------------------------
+You can provide a debug argument which it will capture a screenshot within the "screenshots" folder for every step in the process.  This is a good way
+for you to see what exactly the script is doing as it is doing it, as well as debug if any issues occur.
