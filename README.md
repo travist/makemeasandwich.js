@@ -72,3 +72,7 @@ Debugging & Troubleshooting
 ------------------------------
 You can provide a debug argument which it will capture a screenshot within the "screenshots" folder for every step in the process.  This is a good way
 for you to see what exactly the script is doing as it is doing it, as well as debug if any issues occur.
+
+```
+sudo makemeasandwich -o myorder.json --debug
+```
